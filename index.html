@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Video Film KH – Videoprodukce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="film-grain"></div>
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="vignette"></div>
+        <div class="film-strip"></div>
+        <div class="hero-content">
+            <h1>Video Film KH</h1>
+            <p>Moderní videoprodukce &amp; kreativní střih</p>
+            <a href="#services" class="btn-primary">Naše služby</a>
+        </div>
+        <button id="theme-toggle" aria-label="Přepnout denní/noční režim">🌙</button>
+    </header>
+
+    <main>
+        <!-- Showreel/Featured Video Section -->
+        <section class="showreel">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <div class="showreel-content">
+                <h2 id="showreelTitle">Ukázka naší práce</h2>
+                <div class="showreel-video-wrapper">
+                    <video id="showreelVideo" src="https://www.w3schools.com/html/mov_bbb.mp4"
+                        poster="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
+                        controls loop muted playsinline></video>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Co nabízíme</h2>
+            <div class="service-cards">
+                <div class="service-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <span class="icon">🎬</span>
+                    <h3>TV pořady &amp; reportáže</h3>
+                    <p>Profesionální výroba televizních pořadů a reportáží na míru.</p>
+                </div>
+                <div class="service-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <span class="icon">📹</span>
+                    <h3>Natáčení akcí</h3>
+                    <p>Kulturní, společenské i sportovní akce zachytíme v nejvyšší kvalitě.</p>
+                </div>
+                <div class="service-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <span class="icon">✂️</span>
+                    <h3>Střih &amp; postprodukce</h3>
+                    <p>Kreativní střih, barevné korekce a profesionální postprodukce.</p>
+                </div>
+                <div class="service-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <span class="icon">💾</span>
+                    <h3>Digitalizace</h3>
+                    <p>Převod starých záznamů do moderních formátů a archivace.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2 id="portfolioTitle">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+                        alt="Event 1">
+                    <div class="portfolio-caption">Event 1</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+                        alt="Event 2">
+                    <div class="portfolio-caption">Event 2</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80"
+                        alt="Event 3">
+                    <div class="portfolio-caption">Event 3</div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+                        alt="Event 4">
+                    <div class="portfolio-caption">Event 4</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2>O nás</h2>
+            <p>
+                Jsme tým zkušených videomakerů s vášní pro vizuální příběhy. Pomáháme klientům prezentovat jejich
+                projekty, akce i vzpomínky v moderním stylu.
+            </p>
+        </section>
+
+        <section class="process">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2 id="processTitle">Jak pracujeme</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <span class="process-icon">💬</span>
+                    <h3 id="processStep1">Konzultace</h3>
+                    <p id="processDesc1">Probereme vaše potřeby a vizi.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-icon">🎥</span>
+                    <h3 id="processStep2">Natáčení</h3>
+                    <p id="processDesc2">Zachytíme klíčové momenty s profesionální technikou.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-icon">✂️</span>
+                    <h3 id="processStep3">Střih</h3>
+                    <p id="processDesc3">Kreativně sestříháme a upravíme záběry.</p>
+                </div>
+                <div class="process-step">
+                    <span class="process-icon">🎬</span>
+                    <h3 id="processStep4">Předání</h3>
+                    <p id="processDesc4">Dodáme hotové video v požadovaném formátu.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2>Hodnocení klientů</h2>
+            <div class="review-cards">
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Skvělá spolupráce a profesionální přístup. Výsledné video předčilo naše očekávání!</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Jana K."
+                            class="review-avatar">
+                        <span>- Jana K.</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Rychlé dodání, kreativní střih a perfektní komunikace. Doporučuji!</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Martin S."
+                            class="review-avatar">
+                        <span>- Martin S.</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Děkujeme za krásné zachycení naší svatby. Vše proběhlo bez problémů.</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Petra a Tomáš"
+                            class="review-avatar">
+                        <span>- Petra a Tomáš</span>
+                    </div>
+                </div>
+                <!-- Additional reviews -->
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Video bylo úžasné, zachytili jste atmosféru naší akce dokonale. Děkujeme!</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Lukáš P."
+                            class="review-avatar">
+                        <span>- Lukáš P.</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Profesionální přístup, skvělá komunikace a rychlé dodání. Určitě doporučuji!</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Eva N."
+                            class="review-avatar">
+                        <span>- Eva N.</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="film-strip"></div>
+                    <div class="vignette"></div>
+                    <div class="review-quote">“</div>
+                    <p>Výsledné video mělo skvělou atmosféru a střih. Děkujeme za krásnou vzpomínku!</p>
+                    <div class="review-footer">
+                        <img src="https://randomuser.me/api/portraits/men/77.jpg" alt="Tomáš D."
+                            class="review-avatar">
+                        <span>- Tomáš D.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leave a Review Section Polished & Integrated -->
+        <section class="leave-review">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2 id="leaveReviewTitle">Napište vlastní hodnocení</h2>
+            <form id="leaveReviewForm" autocomplete="off">
+                <div class="form-row">
+                    <input type="text" name="reviewer" id="reviewerName" placeholder="Vaše jméno" required>
+                </div>
+                <textarea name="reviewText" id="reviewText" placeholder="Vaše zkušenost nebo komentář" rows="4" required></textarea>
+                <button type="submit" class="btn-primary"><span id="leaveReviewBtn">Přidat hodnocení</span><svg class="send-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg></button>
+                <div id="reviewFormMessage" class="form-message"></div>
+            </form>
+        </section>
+
+        <section class="contact-form">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2>Napište mi</h2>
+            <form id="contactForm" autocomplete="off">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Vaše jméno" required>
+                    <input type="email" name="email" placeholder="Váš e-mail" required>
+                </div>
+                <textarea name="message" placeholder="Vaše zpráva" rows="5" required></textarea>
+                <button type="submit" class="btn-primary"><span>Odeslat</span><svg class="send-icon"
+                        xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" /></svg></button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </section>
+
+        <section class="contact">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2>Kontakt</h2>
+            <p>
+                Petr Novák<br>
+                Tel.: <a href="tel:+420603123456">603 123 456</a><br>
+                E-mail: <a href="mailto:info@videofilmkh.cz">info@videofilmkh.cz</a>
+            </p>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <h2 id="faqTitle">Často kladené dotazy</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">Jak dlouho trvá zpracování videa?</button>
+                    <div class="faq-answer">Obvykle 1–3 týdny podle rozsahu projektu.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">V jakých formátech dodáváte videa?</button>
+                    <div class="faq-answer">MP4, MOV, nebo dle domluvy.</div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Můžeme si vybrat hudbu do videa?</button>
+                    <div class="faq-answer">Ano, rádi vám poradíme s výběrem vhodné hudby.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="film-strip"></div>
+            <div class="vignette"></div>
+            <div class="cta-content">
+                <h2 id="ctaTitle">Chcete nezávaznou konzultaci?</h2>
+                <a href="#contact" class="btn-primary cta-btn"><span id="ctaBtn">Kontaktujte nás</span></a>
+            </div>
+        </section>
+
+        <button id="lang-toggle" class="lang-toggle" aria-label="Změnit jazyk">EN</button>
+    </main>
+
+    <footer>
+        &copy; 2025 Video Film KH
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Zpět nahoru">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
